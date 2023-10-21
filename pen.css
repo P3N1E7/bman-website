@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+.bg-image {
+    height: 100%;
+}
+.img1 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Dark/img19.jpg");
+    background-repeat: no-repeat;
+}
+.img2 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Dark/img102.jpg");
+    background-repeat: no-repeat;
+}
+.img3 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Dark/img23.jpg");
+    background-repeat: no-repeat;
+}
+.img4 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Light/img0.jpg");
+    background-repeat: no-repeat;
+}
+.img5 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Light/img28.jpg");
+    background-repeat: no-repeat;
+}
+.img6 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Light/img32.jpg");
+    background-repeat: no-repeat;
+}
+.img7 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Dark/img21.jpg");
+    background-repeat: no-repeat;
+}
+.img8 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Light/img100.jpg");
+    background-repeat: no-repeat;
+}
+.img9 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Light/img104.jpg");
+    background-repeat: no-repeat;
+}
+.img10 {background-size: cover;
+    background-image: url("plew/Wallpaper/Wallpapers/Dark/img20.jpg");
+    background-repeat: no-repeat;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
